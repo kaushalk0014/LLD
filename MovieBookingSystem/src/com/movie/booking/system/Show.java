@@ -10,7 +10,5 @@ public class Show {
     private Date endTime;
     private Movie movie;
     private CinemaHall hall;
-    
-    
 
 }

@@ -14,5 +14,16 @@ public class Booking {
     private BookingStatus status;
     private Show show;
     private List<ShowSeat> seats;
+    private Payment payment;
+
+    public boolean makePayment(Payment payment){
+        return false;
+    }
+    public boolean cancel(){
+        return false;
+    }
+    public boolean assignSeats(List<ShowSeat> seats){
+        return false;
+    }
 
 }
